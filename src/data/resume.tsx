@@ -1,0 +1,232 @@
+import { Icons } from "@/components/icons";
+import { HomeIcon, NotebookIcon } from "lucide-react";
+import { title } from "process";
+
+export const DATA = {
+  name: "Prathamesh Kothalkar",
+  initials: "PK",
+  url: "https://www.prathamesh-kothalkar.vercel.app",
+  location: "Pune, India",
+  locationLink: "https://www.google.com/maps/place/pune",
+  description:
+    "Software Developer | Full Stack Engineer.",
+  summary:
+    "I’m a second-year IT Engineering student with hands-on experience in full-stack development, currently interning as a Software Developer at Arevei. I’ve worked on multiple projects like e-commerce platforms using React, Next.js, Node.js, MongoDB, and MySQL. I’ve also solved over 120+ DSA problems and aim to crack a Google interview within a year. Apart from coding, I enjoy participating in hackathons and continuously learning new technologies like blockchain and system design.",
+  avatarUrl: "https://i.ibb.co/QksNKnW/prathamesh.jpg",
+  skills: [
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "TypeScript",
+    "JavaScript",
+    "Java",
+    "C++",
+    "MongoDB",
+    "MySQL",
+    "PostgreSQL",
+    "Tailwind CSS",
+    "Material UI",
+    "Git",
+    "Docker",
+  ],
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+  ],
+  contact: {
+    email: "prathameshkothalkar9021@gmail.com",
+    tel: "+91 9021023183",
+    social: {
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/Prathamesh-Kothalkar",
+        icon: Icons.github,
+        navbar: true,
+      },
+      Resume: {
+        name: "Resume",
+        url: "https://github.com/Prathamesh-Kothalkar",
+        icon: Icons.googleDrive,
+        navbar: true,
+      },
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/prathamesh-kothalkar/",
+        icon: Icons.linkedin,
+        navbar: true,
+      },
+      X: {
+        name: "X",
+        url: "https://twitter.com/pkothalkar",
+        icon: Icons.x,
+        navbar: true,
+      },
+      email: {
+        name: "Send Email",
+        url: "mailto:prathameshkothalkar9021@gmail.com",
+        icon: Icons.email,
+        navbar: true,
+      },
+    },
+  },
+  work: [
+    {
+      company: "Arevei",
+      href: "https://arevei.com",
+      badges: [],
+      location: "Remote",
+      title: "SDE Intern",
+      logoUrl: "/arevei.png",
+      start: "Aug 2024",
+      end: "Present",
+      description:
+        "Contributing to the development of an e-commerce platform. Building frontend pages using React and Tailwind CSS. Developing backend functionalities using Node.js and MongoDB including cart, order, and payment systems. Implemented Razorpay integration and admin panel with dynamic slide management.",
+    },
+    {
+      company: "Passion Softwares",
+      badges: [],
+      href: "https://www.linkedin.com/company/passion-softwares/",
+      location: "Remote",
+      title: "Full Stack Java Trainee",
+      logoUrl: "/passion.png",
+      start: "Jan 2024",
+      end: "Mar 2024",
+      description:
+        "Built full-stack web applications using Java, Spring Boot, and MySQL. Gained experience in MVC architecture and RESTful API development. Worked on several hands-on assignments and completed final assessment with top feedback.",
+    },
+  ],
+  education: [
+    {
+      school: "Savitribai Phule Pune University",
+      href: "https://unipune.ac.in",
+      degree: "B.E. in Information Technology",
+      logoUrl: "./sppu.png",
+      start: "2023",
+      end: "2027",
+    },
+    {
+      school: "MSBTE - Government Polytechnic Jalgaon",
+      href: "https://msbte.org.in",
+      degree: "Diploma in Computer Engineering",
+      logoUrl: "/diploma.jpg",
+      start: "2020",
+      end: "2023",
+    },
+  ],
+  projects: [
+    {
+      title: "Support Desk",
+      href: "",
+      dates: "Apr 2025 - Present",
+      active: true,
+      description:
+        "A student-focused support ticketing system built to streamline communication with staff members. Students can raise tickets, view ticket status, and get real-time updates. Designed with an intuitive UI and secure authentication.",
+      technologies: [
+        "Next.js",
+        "Node.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "Mongoose",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/Prathamesh-Kothalkar/Support-Desk-Student",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "https://support-desk-student.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/Student.png",
+    },
+    {
+      title: "Support Desk (Admin)",
+      href: "",
+      dates: "Apr 2025 - Present",
+      active: true,
+      description:
+        "An admin dashboard for managing student support tickets. Enables staff to view, respond to, and resolve tickets efficiently. Includes role-based access, ticket assignment, and system insights for improved support management.",
+      technologies: [
+        "Next.js",
+        "Node.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "Mongoose",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/Prathamesh-Kothalkar/Support-Desk-Staff",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "https://support-desk-staff.vercel.app/dashboard",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/Admin.png",
+    },
+    
+    ,{
+      title: "E-Commerce Web App",
+      href: "https://github.com/Prathamesh-Kothalkar/Shooppey",
+      dates: "Jul 2023 - Jul 203",
+      active: true,
+      description:
+        "Developed a e-commerce frontend using React.js Where user allows to add or remove product from Cart. As well as Used react toastify for notifiying user also create a Bill Board component which calculate item and prices.",
+      technologies: [
+        "Next.js",
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+        "Razorpay",
+        "Tailwind CSS",
+        "Mongoose",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/Prathamesh-Kothalkar/Shooppey",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ecom.png",
+      video: "",
+    },
+    {
+      title: "Full Stack Wallet App",
+      href: "https://github.com/Prathamesh-Kothalkar/paytm-app",
+      dates: "Sep 2024",
+      active: false,
+      description:
+        "Developed a full stack app Where user can send and recive money. While developing project understand the ' Session in MongoDb' ,Sessions enable causal consistency for a group of operations or allow you to execute operations in an ACID transaction.",
+      technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+      links: [
+        {
+          type:"Github",
+          href: "https://github.com/Prathamesh-Kothalkar/paytm-app",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/paytm.gif",
+      video: "",
+    },
+  ],
+  hackathons: [
+    {
+      title: "Intra-College Hackathon 2024",
+      dates: "March 2024",
+      location: "Pune, Maharashtra",
+      description:
+        "Built a utility app with my teammate as part of a 2-member team. I handled the complete backend and system design, including notifications and database integration.",
+      image: "",
+      mlh: "",
+      links: [],
+    },
+  ],
+} as const;
