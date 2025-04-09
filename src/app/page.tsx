@@ -5,6 +5,7 @@ import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { CodingBadge } from "@/components/ui/codingprofile";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -105,12 +106,46 @@ export default function Page() {
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
               <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
+                <CodingBadge key={skill} >{skill}</CodingBadge>
               </BlurFade>
             ))}
           </div>
         </div>
       </section>
+      <section id="coding">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 9}>
+            <h2 className="text-xl font-bold">Coding Profiles</h2>
+          </BlurFade>
+          <div className="flex flex-wrap gap-2">
+            {DATA.codingProfiles.map((profile, id) => (
+              <BlurFade
+                key={profile.name}
+                delay={BLUR_FADE_DELAY * 10 + id * 0.05}
+              >
+                <a
+                  href={profile.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col border border-border rounded-xl p-3 hover:shadow-md transition-all min-w-[180px]"
+                >
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="font-semibold">{profile.name}</span>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {profile.badges.map((badge, badgeId) => (
+                      <CodingBadge key={badgeId} variant={badge.variant}>
+                        {badge.title}
+                      </CodingBadge>
+                    ))}
+                  </div>
+                </a>
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -132,7 +167,7 @@ export default function Page() {
           </BlurFade>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
             {DATA.projects.map((project, id) => {
-              if (!project) return null; 
+              if (!project) return null;
 
               return (
                 <BlurFade
@@ -146,9 +181,9 @@ export default function Page() {
                     description={project.description}
                     dates={project.dates}
                     tags={project.technologies}
-                    image={project.image || ""} 
+                    image={project.image || ""}
                     // video={project.video || ""} 
-                    links={project.links || []} 
+                    links={project.links || []}
                   />
                 </BlurFade>
               );

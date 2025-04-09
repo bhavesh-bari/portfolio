@@ -9,7 +9,7 @@ export const DATA = {
   location: "Pune, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description:
-    "Software Developer | Full Stack Engineer.",
+    "Software Developer | Full Stack Engineer | Student ",
   summary:
     "I’m a second-year IT Engineering student with hands-on experience in full-stack development, currently interning as a Software Developer at Arevei. I’ve worked on multiple projects like e-commerce platforms using React, Next.js, Node.js, MongoDB, and MySQL. I’ve also solved over 120+ DSA problems and aim to crack a Google interview within a year. Apart from coding, I enjoy participating in hackathons and continuously learning new technologies like blockchain and system design.",
   avatarUrl: "https://i.ibb.co/QksNKnW/prathamesh.jpg",
@@ -29,6 +29,31 @@ export const DATA = {
     "Material UI",
     "Git",
     "Docker",
+    "Android"
+  ],
+  codingProfiles:[
+    {
+      name: "LeetCode",
+      url: "https://leetcode.com/u/prathamesh_kothalkar/",
+      icon: Icons.globe,
+      badges: [
+        {
+          title: "170+ problems solved",
+          variant: "secondary",
+        },
+      ],
+    },
+    {
+      name: "HackerRank",
+      url: "https://www.hackerrank.com/profile/prathameshkotha4",
+      icon: Icons.globe,
+      badges: [
+        {
+          title: "100+ problems solved",
+          variant: "secondary",
+        },
+      ],
+    },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -58,7 +83,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://twitter.com/pkothalkar",
+        url: "https://twitter.com/Prathamesh_Koth",
         icon: Icons.x,
         navbar: true,
       },
