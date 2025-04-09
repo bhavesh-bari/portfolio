@@ -46,7 +46,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://github.com/Prathamesh-Kothalkar",
+        url: "https://drive.google.com/file/d/12tOD-EUHxo5P1RDMakt7VjIAKb1WSSj1/view?usp=drive_link",
         icon: Icons.googleDrive,
         navbar: true,
       },
@@ -84,6 +84,18 @@ export const DATA = {
         "Contributing to the development of an e-commerce platform. Building frontend pages using React and Tailwind CSS. Developing backend functionalities using Node.js and MongoDB including cart, order, and payment systems. Implemented Razorpay integration and admin panel with dynamic slide management.",
     },
     {
+      company: "Google Developer Group on Campus",
+      href: "https://gdg.community.dev/gdg-on-campus-zcoer/",
+      badges: [],
+      location: "Pune, Maharashtra",
+      title: "Core Team Member (WEB)",
+      logoUrl: "/gdg.svg",
+      start: "Oct 2024",
+      end: "Present",
+      description:
+        "Currently developing the official website for GDG on Campus ZCOER. Responsible for building frontend pages using Nextjs and Tailwind CSS and developing backend services with Node.js and MongoDB. Features include event listings, team showcase, and admin tools for dynamic content management. Also contributed to payment integration and secure form handling.",
+    },    
+    {
       company: "Passion Softwares",
       badges: [],
       href: "https://www.linkedin.com/company/passion-softwares/",
@@ -102,7 +114,7 @@ export const DATA = {
       href: "https://unipune.ac.in",
       degree: "B.E. in Information Technology",
       logoUrl: "./sppu.png",
-      start: "2023",
+      start: "2024",
       end: "2027",
     },
     {
@@ -110,14 +122,14 @@ export const DATA = {
       href: "https://msbte.org.in",
       degree: "Diploma in Computer Engineering",
       logoUrl: "/diploma.jpg",
-      start: "2020",
-      end: "2023",
+      start: "2021",
+      end: "2024",
     },
   ],
   projects: [
     {
       title: "Support Desk",
-      href: "",
+      href: "https://support-desk-student.vercel.app/",
       dates: "Apr 2025 - Present",
       active: true,
       description:
@@ -145,7 +157,7 @@ export const DATA = {
     },
     {
       title: "Support Desk (Admin)",
-      href: "",
+      href: "https://support-desk-staff.vercel.app/dashboar",
       dates: "Apr 2025 - Present",
       active: true,
       description:
@@ -194,6 +206,11 @@ export const DATA = {
           href: "https://github.com/Prathamesh-Kothalkar/Shooppey",
           icon: <Icons.github className="size-3" />,
         },
+        {
+          type: "Website",
+          href:"https://shoppei.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        }
       ],
       image: "/ecom.png",
       video: "",
