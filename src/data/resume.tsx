@@ -138,7 +138,7 @@ export const DATA = {
       href: "https://www.linkedin.com/company/passion-softwares/",
       location: "Remote",
       title: "Full Stack Java Trainee",
-      // logoUrl: "/passion.png",
+      logoUrl: "/passion.png",
       start: "Jan 2024",
       end: "Mar 2024",
       description:
