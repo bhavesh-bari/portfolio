@@ -1,6 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
-import { title } from "process";
+
 
 export const DATA = {
   name: "Prathamesh Kothalkar",
@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Software Developer | Full Stack Engineer | Student ",
   summary:
-    "I’m a second-year IT Engineering student with hands-on experience in full-stack development, currently interning as a Software Developer at Arevei. I’ve worked on multiple projects like e-commerce platforms using React, Next.js, Node.js, MongoDB, and MySQL. I’ve also solved over 120+ DSA problems and aim to crack a Google interview within a year. Apart from coding, I enjoy participating in hackathons and continuously learning new technologies like blockchain and system design.",
+    "I’m a second-year IT Engineering student with hands-on experience in full-stack development, currently interning as a Software Developer at Arevei. I’ve worked on multiple projects like e-commerce platforms using React, Next.js, Node.js, MongoDB, and MySQL. I’ve also solved over 170+ DSA problems and aim to crack a Google interview within a year. Apart from coding, I enjoy participating in hackathons and continuously learning new technologies like blockchain and system design.",
   avatarUrl: "https://i.ibb.co/QksNKnW/prathamesh.jpg",
   skills: [
     "React.js",
@@ -29,7 +29,8 @@ export const DATA = {
     "Material UI",
     "Git",
     "Docker",
-    "Android"
+    "Android",
+    "Redis"
   ],
   codingProfiles:[
     {
@@ -50,6 +51,17 @@ export const DATA = {
       badges: [
         {
           title: "100+ problems solved",
+          variant: "secondary",
+        },
+      ],
+    },
+    {
+      name: "GitHub",
+      url: "https://www.hackerrank.com/profile/prathameshkotha4",
+      icon: Icons.globe,
+      badges: [
+        {
+          title: "Open Source Contributions",
           variant: "secondary",
         },
       ],
@@ -126,7 +138,7 @@ export const DATA = {
       href: "https://www.linkedin.com/company/passion-softwares/",
       location: "Remote",
       title: "Full Stack Java Trainee",
-      logoUrl: "/passion.png",
+      // logoUrl: "/passion.png",
       start: "Jan 2024",
       end: "Mar 2024",
       description:
@@ -182,7 +194,7 @@ export const DATA = {
     },
     {
       title: "Support Desk (Admin)",
-      href: "https://support-desk-staff.vercel.app/dashboar",
+      href: "https://support-desk-staff.vercel.app/",
       dates: "Apr 2025 - Present",
       active: true,
       description:
@@ -247,7 +259,7 @@ export const DATA = {
       active: false,
       description:
         "Developed a full stack app Where user can send and recive money. While developing project understand the ' Session in MongoDb' ,Sessions enable causal consistency for a group of operations or allow you to execute operations in an ACID transaction.",
-      technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+      technologies: ["React.js", "Node.js", "MongoDB", "Tailwind CSS"],
       links: [
         {
           type:"Github",

@@ -9,12 +9,16 @@ import { CodingBadge } from "@/components/ui/codingprofile";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
+      <Analytics/>
+      <SpeedInsights/>
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -123,7 +127,7 @@ export default function Page() {
                 key={profile.name}
                 delay={BLUR_FADE_DELAY * 10 + id * 0.05}
               >
-                <a
+                 <a
                   href={profile.url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -131,12 +135,12 @@ export default function Page() {
                 >
                   <div className="flex items-center gap-2 mb-2">
                     <span className="font-semibold">{profile.name}</span>
-                  </div>
+                  </div> 
                   <div className="flex flex-wrap gap-2">
                     {profile.badges.map((badge, badgeId) => (
-                      <CodingBadge key={badgeId} variant={badge.variant}>
+                      <Badge key={badgeId} variant={badge.variant}>
                         {badge.title}
-                      </CodingBadge>
+                      </Badge>
                     ))}
                   </div>
                 </a>
