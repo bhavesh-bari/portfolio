@@ -3,16 +3,16 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 
 export const DATA = {
-  name: "Prathamesh Kothalkar",
-  initials: "PK",
-  url: "https://www.prathamesh-kothalkar.vercel.app",
+  name: "Bhavesh Bari",
+  initials: "BB",
+  url: "https://vercel.com/bhavsh-12s-projects/",
   location: "Pune, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description:
     "Software Developer | Full Stack Engineer | Student ",
   summary:
-    "I’m a second-year IT Engineering student with hands-on experience in full-stack development, currently interning as a Software Developer at Arevei. I’ve worked on multiple projects like e-commerce platforms using React, Next.js, Node.js, MongoDB, and MySQL. I’ve also solved over 170+ DSA problems and aim to crack a Google interview within a year. Apart from coding, I enjoy participating in hackathons and continuously learning new technologies like blockchain and system design.",
-  avatarUrl: "https://i.ibb.co/QksNKnW/prathamesh.jpg",
+    "I’m a second-year AI & DS Engineering student with hands-on experience in full-stack development. I’ve worked on multiple projects like SmartServe platforms using React, Next.js, Node.js, MongoDB, and MySQL. I’ve also solved over 100+ DSA problems and aim to crack a Google interview within a year. Apart from coding, I enjoy participating in hackathons and continuously learning new technologies like Artificial Intelligence & Data Science and system design.",
+  avatarUrl: "https://i.ibb.co/bgMLXGvj/bhavesh-bari.png",
   skills: [
     "React.js",
     "Next.js",
@@ -22,31 +22,20 @@ export const DATA = {
     "JavaScript",
     "Java",
     "C++",
+    "Python",
     "MongoDB",
     "MySQL",
     "PostgreSQL",
     "Tailwind CSS",
-    "Material UI",
+    "Framer Motion",
     "Git",
-    "Docker",
+    "Postman",
     "Android",
-    "Redis"
   ],
   codingProfiles:[
     {
       name: "LeetCode",
-      url: "https://leetcode.com/u/prathamesh_kothalkar/",
-      icon: Icons.globe,
-      badges: [
-        {
-          title: "170+ problems solved",
-          variant: "secondary",
-        },
-      ],
-    },
-    {
-      name: "HackerRank",
-      url: "https://www.hackerrank.com/profile/prathameshkotha4",
+      url: "https://leetcode.com/u/bhaveshbari0402/",
       icon: Icons.globe,
       badges: [
         {
@@ -56,8 +45,19 @@ export const DATA = {
       ],
     },
     {
+      name: "kaggle",
+      url: "https://www.kaggle.com/bhaveshbari",
+      icon: Icons.globe,
+      badges: [
+        {
+          title: "Participiate In No of Competitions",
+          variant: "secondary",
+        },
+      ],
+    },
+    {
       name: "GitHub",
-      url: "https://www.hackerrank.com/profile/prathameshkotha4",
+      url: "https://github.com/BhaVsh-12",
       icon: Icons.globe,
       badges: [
         {
@@ -72,12 +72,12 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "prathameshkothalkar9021@gmail.com",
-    tel: "+91 9021023183",
+    email: "bhaveshbari0402@gmail.com",
+    tel: "+91 7756856405",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/Prathamesh-Kothalkar",
+        url: "https://github.com/BhaVsh-12",
         icon: Icons.github,
         navbar: true,
       },
@@ -89,49 +89,25 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/prathamesh-kothalkar/",
+        url: "https://www.linkedin.com/in/bhavesh-bari-14a836315/",
         icon: Icons.linkedin,
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://twitter.com/Prathamesh_Koth",
+        url: "https://x.com/bhaveshbari1590",
         icon: Icons.x,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "mailto:prathameshkothalkar9021@gmail.com",
+        url: "mailto:bhaveshbari0402@gmail.com",
         icon: Icons.email,
         navbar: true,
       },
     },
   },
-  work: [
-    {
-      company: "Arevei",
-      href: "https://arevei.com",
-      badges: [],
-      location: "Remote",
-      title: "SDE Intern",
-      logoUrl: "/arevei.png",
-      start: "Aug 2024",
-      end: "Present",
-      description:
-        "Contributing to the development of an e-commerce platform. Building frontend pages using React and Tailwind CSS. Developing backend functionalities using Node.js and MongoDB including cart, order, and payment systems. Implemented Razorpay integration and admin panel with dynamic slide management.",
-    },
-    {
-      company: "Google Developer Group on Campus",
-      href: "https://gdg.community.dev/gdg-on-campus-zcoer/",
-      badges: [],
-      location: "Pune, Maharashtra",
-      title: "Core Team Member (WEB)",
-      logoUrl: "/gdg.svg",
-      start: "Oct 2024",
-      end: "Present",
-      description:
-        "Currently developing the official website for GDG on Campus ZCOER. Responsible for building frontend pages using Nextjs and Tailwind CSS and developing backend services with Node.js and MongoDB. Features include event listings, team showcase, and admin tools for dynamic content management. Also contributed to payment integration and secure form handling.",
-    },    
+  work: [   
     {
       company: "Passion Softwares",
       badges: [],
@@ -142,14 +118,14 @@ export const DATA = {
       start: "Jan 2024",
       end: "Mar 2024",
       description:
-        "Built full-stack web applications using Java, Spring Boot, and MySQL. Gained experience in MVC architecture and RESTful API development. Worked on several hands-on assignments and completed final assessment with top feedback.",
+        "Built full-stack web applications using Java, Java Server Page, Apache_Tomcat Server and MySQL. Gained experience in MVC architecture and RESTful API development. Worked on several hands-on assignments and completed final assessment with top feedback.",
     },
   ],
   education: [
     {
       school: "Savitribai Phule Pune University",
       href: "https://unipune.ac.in",
-      degree: "B.E. in Information Technology",
+      degree: "B.E. in Artificial Intelligence & Data Science",
       logoUrl: "./sppu.png",
       start: "2024",
       end: "2027",
@@ -165,14 +141,14 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Support Desk",
-      href: "https://support-desk-student.vercel.app/",
-      dates: "Apr 2025 - Present",
+      title: "consistency-tracker",
+      href: "https://consistency-tracker-phi.vercel.app/",
+      dates: "May 2025 - Present",
       active: true,
       description:
-        "A student-focused support ticketing system built to streamline communication with staff members. Students can raise tickets, view ticket status, and get real-time updates. Designed with an intuitive UI and secure authentication.",
+        "This is a productivity app designed to help users stay consistent with their personal goals by tracking their progress through daily check-ins, streaks, and rewards. It features a gamified system where users earn coins, unlock ranks, and receive daily motivational quotes to stay motivated and accountable.",
       technologies: [
-        "Next.js",
+        "React.js",
         "Node.js",
         "MongoDB",
         "Tailwind CSS",
@@ -181,26 +157,26 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/Prathamesh-Kothalkar/Support-Desk-Student",
+          href: "https://github.com/BhaVsh-12/consistency-tracker",
           icon: <Icons.github className="size-3" />,
         },
         {
           type: "Website",
-          href: "https://support-desk-student.vercel.app/",
+          href: "https://consistency-tracker-phi.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "/Student.png",
+      image: "/consist.png",
     },
     {
-      title: "Support Desk (Admin)",
-      href: "https://support-desk-staff.vercel.app/",
-      dates: "Apr 2025 - Present",
+      title: "SmartServe (Clients)",
+      href: "https://smart-serve-coral.vercel.app/client/explore",
+      dates: "March 2025 - April 2025",
       active: true,
       description:
-        "An admin dashboard for managing student support tickets. Enables staff to view, respond to, and resolve tickets efficiently. Includes role-based access, ticket assignment, and system insights for improved support management.",
+        "SmartServe helps clients find and book trusted service providers like electricians, plumbers, and painters. It offers real-time tracking, integrated chat, service history, ratings and feedback, secure online payments, and easy profile management to ensure a seamless and trustworthy service experience.",
       technologies: [
-        "Next.js",
+        "React.js",
         "Node.js",
         "MongoDB",
         "Tailwind CSS",
@@ -209,27 +185,27 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/Prathamesh-Kothalkar/Support-Desk-Staff",
+          href: "https://github.com/BhaVsh-12/SmartServe",
           icon: <Icons.github className="size-3" />,
         },
         {
           type: "Website",
-          href: "https://support-desk-staff.vercel.app/dashboard",
+          href: "https://smart-serve-coral.vercel.app/client/explore",
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "/Admin.png",
+      image: "/client.png",
     },
     
     ,{
-      title: "E-Commerce Web App",
-      href: "https://github.com/Prathamesh-Kothalkar/Shooppey",
-      dates: "Jul 2023 - Jul 203",
+      title: "SmartServe (ServiceProviders)",
+      href: "https://smart-serve-coral.vercel.app/service/profile",
+      dates: "March 2025 - April 2025",
       active: true,
       description:
-        "Developed a e-commerce frontend using React.js Where user allows to add or remove product from Cart. As well as Used react toastify for notifiying user also create a Bill Board component which calculate item and prices.",
+        "SmartServe enables service providers to manage incoming requests, set up professional profiles, track earnings, and engage in real-time communication with clients. It also offers flexible membership plans, client feedback management, and a secure platform for completing transactions.",
       technologies: [
-        "Next.js",
+        "React.js",
         "Node.js",
         "MongoDB",
         "Express.js",
@@ -240,36 +216,59 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/Prathamesh-Kothalkar/Shooppey",
+          href: "https://github.com/BhaVsh-12/SmartServe",
           icon: <Icons.github className="size-3" />,
         },
         {
           type: "Website",
-          href:"https://shoppei.vercel.app/",
+          href:"https://smart-serve-coral.vercel.app/service/profile",
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "/ecom.png",
+      image: "/service.png",
       video: "",
     },
     {
-      title: "Full Stack Wallet App",
-      href: "https://github.com/Prathamesh-Kothalkar/paytm-app",
-      dates: "Sep 2024",
+      title: "Full Stack Gmail_Clone",
+      href: "https://github.com/BhaVsh-12/Gmail_Clone",
+      dates: "Feb 2025",
       active: false,
       description:
-        "Developed a full stack app Where user can send and recive money. While developing project understand the ' Session in MongoDb' ,Sessions enable causal consistency for a group of operations or allow you to execute operations in an ACID transaction.",
+        "This Gmail Clone replicates core email functionalities like user authentication, inbox management, composing/sending emails, and features such as Archive, Starred, Snooze, and Search. It provides a responsive and user-friendly interface, delivering a seamless email experience similar to Gmail.",
       technologies: ["React.js", "Node.js", "MongoDB", "Tailwind CSS"],
       links: [
         {
           type:"Github",
-          href: "https://github.com/Prathamesh-Kothalkar/paytm-app",
+          href: "https://github.com/BhaVsh-12/Gmail_Clone",
+          icon: <Icons.github className="size-3" />,
+        },
+         {
+          type: "Website",
+          href:"https://gmail-clone-sandy.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/gmail.png",
+      video: "",
+    },
+    {
+      title: "Full Stack E-Banking",
+      href: "https://github.com/BhaVsh-12/Ebanking",
+      dates: "Jan 2024  - Feb 2024",
+      active: false,
+      description:
+        "This Virtual Banking WebApp simulates real-world banking operations including account creation, balance check, money transfers, deposits, withdrawals, and PIN management. It features a secure login system and an Admin Panel for managing users and tracking transactions, all within a responsive and user-friendly interface.",
+      technologies: ["Html","Javascript", "Java", "MySql", "Bootstrap","Tomcat Server"],
+      links: [
+        {
+          type:"Github",
+          href: "https://github.com/BhaVsh-12/Ebanking",
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "/paytm.gif",
+      image: "/Bank.png",
       video: "",
-    },
+    }
   ],
   hackathons: [
     {
