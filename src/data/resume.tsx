@@ -12,7 +12,7 @@ export const DATA = {
     "Software Developer | Full Stack Engineer | Student ",
   summary:
     "I’m a second-year AI & DS Engineering student with hands-on experience in full-stack development. I’ve worked on multiple projects like SmartServe platforms using React, Next.js, Node.js, MongoDB, and MySQL. I’ve also solved over 100+ DSA problems and aim to crack a Google interview within a year. Apart from coding, I enjoy participating in hackathons and continuously learning new technologies like Artificial Intelligence & Data Science and system design.",
-  avatarUrl: "https://i.ibb.co/C5F5GkWQ/Whats-App-Image-2025-05-16-at-8-55-17-AM.jpg",
+  avatarUrl: "https://i.ibb.co/hx9V2smY/profile.png",
   skills: [
     "React.js",
     "Next.js",
