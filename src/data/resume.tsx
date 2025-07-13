@@ -5,7 +5,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Bhavesh Bari",
   initials: "BB",
-  url: "https://vercel.com/bhavsh-12s-projects/",
+  url: "https://vercel.com/bhavsh-bari-projects",
   location: "Pune, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description:
@@ -32,10 +32,10 @@ export const DATA = {
     "Postman",
     "Android",
   ],
-  codingProfiles:[
+  codingProfiles: [
     {
       name: "LeetCode",
-      url: "https://leetcode.com/u/bhaveshbari0402/",
+      url: "https://leetcode.com/u/bhavesh-bari/",
       icon: Icons.globe,
       badges: [
         {
@@ -46,7 +46,7 @@ export const DATA = {
     },
     {
       name: "kaggle",
-      url: "https://www.kaggle.com/bhaveshbari",
+      url: "https://www.kaggle.com/bhavesh-bari",
       icon: Icons.globe,
       badges: [
         {
@@ -57,7 +57,7 @@ export const DATA = {
     },
     {
       name: "GitHub",
-      url: "https://github.com/BhaVsh-12",
+      url: "https://github.com/bhavesh-bari",
       icon: Icons.globe,
       badges: [
         {
@@ -77,7 +77,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/BhaVsh-12",
+        url: "https://github.com/bhavesh-bari",
         icon: Icons.github,
         navbar: true,
       },
@@ -89,7 +89,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bhavesh-bari-14a836315/",
+        url: "https://www.linkedin.com/in/bhavesh-bari/",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -107,7 +107,7 @@ export const DATA = {
       },
     },
   },
-  work: [   
+  work: [
     {
       company: "Passion Softwares",
       badges: [],
@@ -157,7 +157,7 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/BhaVsh-12/consistency-tracker",
+          href: "https://github.com/bhavesh-bari/consistency-tracker",
           icon: <Icons.github className="size-3" />,
         },
         {
@@ -185,7 +185,7 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/BhaVsh-12/SmartServe",
+          href: "https://github.com/bhavesh-bari/SmartServe",
           icon: <Icons.github className="size-3" />,
         },
         {
@@ -196,8 +196,8 @@ export const DATA = {
       ],
       image: "/client.png",
     },
-    
-    ,{
+
+    , {
       title: "SmartServe (ServiceProviders)",
       href: "https://smart-serve-coral.vercel.app/service/profile",
       dates: "March 2025 - April 2025",
@@ -216,12 +216,12 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/BhaVsh-12/SmartServe",
+          href: "https://github.com/bhavesh-bari/SmartServe",
           icon: <Icons.github className="size-3" />,
         },
         {
           type: "Website",
-          href:"https://smart-serve-coral.vercel.app/service/profile",
+          href: "https://smart-serve-coral.vercel.app/service/profile",
           icon: <Icons.globe className="size-3" />,
         }
       ],
@@ -230,7 +230,7 @@ export const DATA = {
     },
     {
       title: "Full Stack Gmail_Clone",
-      href: "https://github.com/BhaVsh-12/Gmail_Clone",
+      href: "https://github.com/bhavesh-bari/Gmail_Clone",
       dates: "Feb 2025",
       active: false,
       description:
@@ -238,13 +238,13 @@ export const DATA = {
       technologies: ["React.js", "Node.js", "MongoDB", "Tailwind CSS"],
       links: [
         {
-          type:"Github",
-          href: "https://github.com/BhaVsh-12/Gmail_Clone",
+          type: "Github",
+          href: "https://github.com/bhavesh-bari/Gmail_Clone",
           icon: <Icons.github className="size-3" />,
         },
-         {
+        {
           type: "Website",
-          href:"https://gmail-clone-sandy.vercel.app/",
+          href: "https://gmail-clone-sandy.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         }
       ],
@@ -253,16 +253,16 @@ export const DATA = {
     },
     {
       title: "Full Stack E-Banking",
-      href: "https://github.com/BhaVsh-12/Ebanking",
+      href: "https://github.com/bhavesh-bari/Ebanking",
       dates: "Jan 2024  - Feb 2024",
       active: false,
       description:
         "This Virtual Banking WebApp simulates real-world banking operations including account creation, balance check, money transfers, deposits, withdrawals, and PIN management. It features a secure login system and an Admin Panel for managing users and tracking transactions, all within a responsive and user-friendly interface.",
-      technologies: ["Html","Javascript", "Java", "MySql", "Bootstrap","Tomcat Server"],
+      technologies: ["Html", "Javascript", "Java", "MySql", "Bootstrap", "Tomcat Server"],
       links: [
         {
-          type:"Github",
-          href: "https://github.com/BhaVsh-12/Ebanking",
+          type: "Github",
+          href: "https://github.com/bhavesh-bari/Ebanking",
           icon: <Icons.github className="size-3" />,
         }
       ],
