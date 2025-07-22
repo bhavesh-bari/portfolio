@@ -21,6 +21,7 @@ export const DATA = {
     "TypeScript",
     "JavaScript",
     "Java",
+    "NextJs",
     "C++",
     "Python",
     "MongoDB",
@@ -83,7 +84,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1Fatuv8uQtKIaY0te1lMc8ymLPxqx3MpW/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1Fk-lnV7Khsk2ZHisYpLJM9xN1ORVXWeJ/view?usp=sharing",
         icon: Icons.googleDrive,
         navbar: true,
       },
