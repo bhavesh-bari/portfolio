@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Software Developer | Full Stack Engineer | Student ",
   summary:
-    "I’m a second-year AI & DS Engineering student with hands-on experience in full-stack development. I’ve worked on multiple projects like SmartServe platforms using React, Next.js, Node.js, MongoDB, and MySQL. I’ve also solved over 100+ DSA problems and aim to crack a Google interview within a year. Apart from coding, I enjoy participating in hackathons and continuously learning new technologies like Artificial Intelligence & Data Science and system design.",
+    "I’m a third-year AI & DS Engineering student with hands-on experience in full-stack development. I’ve worked on multiple projects like SmartServe platforms using React, Next.js, Node.js, MongoDB, and MySQL. I’ve also solved over 100+ DSA problems and aim to crack a big MNC interview within a year. Apart from coding, I enjoy participating in hackathons and continuously learning new technologies like Artificial Intelligence & Data Science and system design.",
   avatarUrl: "https://i.ibb.co/hx9V2smY/profile.png",
   skills: [
     "React.js",
@@ -171,7 +171,7 @@ export const DATA = {
     },
     {
       title: "SmartServe (Clients)",
-      href: "https://smart-serve-coral.vercel.app/client/explore",
+      href: "https://smart-serve-coral.vercel.app/",
       dates: "March 2025 - April 2025",
       active: true,
       description:
@@ -191,7 +191,7 @@ export const DATA = {
         },
         {
           type: "Website",
-          href: "https://smart-serve-coral.vercel.app/client/explore",
+          href: "https://smart-serve-coral.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         }
       ],
@@ -200,7 +200,7 @@ export const DATA = {
 
     , {
       title: "SmartServe (ServiceProviders)",
-      href: "https://smart-serve-coral.vercel.app/service/profile",
+      href: "https://smart-serve-coral.vercel.app/",
       dates: "March 2025 - April 2025",
       active: true,
       description:
@@ -222,7 +222,7 @@ export const DATA = {
         },
         {
           type: "Website",
-          href: "https://smart-serve-coral.vercel.app/service/profile",
+          href: "https://smart-serve-coral.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         }
       ],
