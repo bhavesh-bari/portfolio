@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Software Developer | Full Stack Engineer | Student ",
   summary:
-    "I’m a third-year AI & DS Engineering student with hands-on experience in full-stack development. I’ve worked on multiple projects like SmartServe platforms using React, Next.js, Node.js, MongoDB, and MySQL. I’ve also solved over 100+ DSA problems and aim to crack a big MNC interview within a year. Apart from coding, I enjoy participating in hackathons and continuously learning new technologies like Artificial Intelligence & Data Science and system design.",
+    "I’m Bhavesh Bari, a third-year Artificial Intelligence & Data Science student at JSPM Narhe Technical Campus, Pune, with hands-on experience in full-stack development and AI-driven applications. I have built projects like LessonCraft, an AI-powered teaching assistant, and SmartServe, a service tracking web app, using React, Next.js, Node.js, MongoDB, Redis, and MySQL. I’ve solved over 200 DSA problems, participated in hackathons, led teams to victories, and published technical articles, all while continuously learning emerging technologies in AI, system design, and full-stack development to build scalable and user-centric applications.",
   avatarUrl: "https://i.ibb.co/hx9V2smY/profile.png",
   skills: [
     "React.js",
@@ -84,7 +84,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1Fk-lnV7Khsk2ZHisYpLJM9xN1ORVXWeJ/view?usp=sharing",
+        url: "Bhavesh_Bari_Resume_2027.pdf",
         icon: Icons.googleDrive,
         navbar: true,
       },
@@ -142,33 +142,37 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "consistency-tracker",
-      href: "https://consistency-tracker-phi.vercel.app/",
-      dates: "May 2025 - Present",
+      title: "LessonCraft – AI-Powered Teaching Assistant",
+      href: "https://lesson-craft-teach.vercel.app/",
+      dates: "2025",
       active: true,
-      description:
-        "This is a productivity app designed to help users stay consistent with their personal goals by tracking their progress through daily check-ins, streaks, and rewards. It features a gamified system where users earn coins, unlock ranks, and receive daily motivational quotes to stay motivated and accountable.",
+      description: "LessonCraft is an AI-powered platform that helps educators create high-quality teaching materials quickly. It automates notes, quizzes, lesson plans, and exam papers using the Google Gemini API, with tools like Notes Generator, Quiz Maker, Lesson Plan Generator, PDF export, and secure authentication, enabling teachers to focus on teaching."
+      ,
       technologies: [
-        "React.js",
-        "Node.js",
-        "MongoDB",
+        "Next.js (App Router)",
         "Tailwind CSS",
-        "Mongoose",
+        "NextAuth.js",
+        "Google Gemini API",
+        "Redis",
+        "Puppeteer + @sparticuz/chromium",
+        "Lucide React",
+        "react-markdown"
       ],
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/bhavesh-bari/consistency-tracker",
+          href: "https://github.com/bhavesh-bari/LessonCraft",
           icon: <Icons.github className="size-3" />,
         },
         {
           type: "Website",
-          href: "https://consistency-tracker-phi.vercel.app/",
+          href: "https://lesson-craft-teach.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "/consist.png",
-    },
+      image: "/lessoncraft.png",
+    }
+    ,
     {
       title: "SmartServe (Clients)",
       href: "https://smart-serve-coral.vercel.app/",
@@ -230,6 +234,34 @@ export const DATA = {
       video: "",
     },
     {
+      title: "consistency-tracker",
+      href: "https://consistency-tracker-phi.vercel.app/",
+      dates: "May 2025 - Present",
+      active: true,
+      description:
+        "This is a productivity app designed to help users stay consistent with their personal goals by tracking their progress through daily check-ins, streaks, and rewards. It features a gamified system where users earn coins, unlock ranks, and receive daily motivational quotes to stay motivated and accountable.",
+      technologies: [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "Mongoose",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/bhavesh-bari/consistency-tracker",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "https://consistency-tracker-phi.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/consist.png",
+    },
+    {
       title: "Full Stack Gmail_Clone",
       href: "https://github.com/bhavesh-bari/Gmail_Clone",
       dates: "Feb 2025",
@@ -272,6 +304,27 @@ export const DATA = {
     }
   ],
   hackathons: [
+
+    {
+      title: "Google Cloud Gen AI Hackathon",
+      dates: "Sep 2025",
+      location: "Pune, Maharashtra",
+      description:
+        "Developed an AI-Based Marketplace for Indian artisans using Google Cloud Gen AI. Implemented features like AI-driven art recommendations, product image optimization, story-teller, SEO keyword generator etc. Leveraged Google Cloud services for scalability and performance."
+      ,
+      image: "google.png",
+      mlh: "",
+      links: [{
+        href: "https://kalpavriksha-ai.vercel.app/",
+        title: "Website",
+        icon: <Icons.globe className="size-3" />,
+      },
+      {
+        href: "https://github.com/bhavesh-bari/KalpavrikshaAI",
+        title: "GitHub",
+        icon: <Icons.github className="size-3" />,
+      },],
+    },
     {
       title: "Intra-College Hackathon 2024",
       dates: "March 2024",
