@@ -84,7 +84,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "Bhavesh_Bari_Resume_2027.pdf",
+        url: "BHAVESH_RESUME_2027.pdf",
         icon: Icons.googleDrive,
         navbar: true,
       },
