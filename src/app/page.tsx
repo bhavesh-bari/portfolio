@@ -1,4 +1,5 @@
 import { HackathonCard } from "@/components/hackathon-card";
+import { CertificationCard } from "@/components/CertificationCard";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -17,8 +18,8 @@ const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
-      <Analytics/>
-      <SpeedInsights/>
+      <Analytics />
+      <SpeedInsights />
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -127,7 +128,7 @@ export default function Page() {
                 key={profile.name}
                 delay={BLUR_FADE_DELAY * 10 + id * 0.05}
               >
-                 <a
+                <a
                   href={profile.url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -135,7 +136,7 @@ export default function Page() {
                 >
                   <div className="flex items-center gap-2 mb-2">
                     <span className="font-semibold">{profile.name}</span>
-                  </div> 
+                  </div>
                   <div className="flex flex-wrap gap-2">
                     {profile.badges.map((badge, badgeId) => (
                       <Badge key={badgeId} variant={badge.variant}>
@@ -144,6 +145,45 @@ export default function Page() {
                     ))}
                   </div>
                 </a>
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section id="certifications">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 11}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Certifications
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  My Certifications
+                </h2>
+                <p className="text-muted-foreground md:text-xl">
+                  Certifications validating my cloud and technical expertise.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {DATA.certifications.map((cert, id) => (
+              <BlurFade
+                key={cert.title}
+                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+              >
+                <CertificationCard
+                  title={cert.title}
+                  issuer={cert.issuer}
+                  date={cert.date}
+                  credentialId={cert.credentialId}
+                  credentialUrl={cert.credentialUrl}
+                  skills={cert.skills}
+                  image={cert.logoUrl}
+                  pdfUrl={cert.pdfUrl}
+                />
               </BlurFade>
             ))}
           </div>

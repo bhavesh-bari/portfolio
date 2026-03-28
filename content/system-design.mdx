@@ -1,0 +1,91 @@
+---
+title: "Why University Result Portals Crash — And How to Design Them Properly"
+publishedAt: "2026-02-23"
+summary: "System design of scalable university result portals using predictive scaling, CDN caching, Redis, and load balancing to handle burst traffic."
+---
+Hi there!
+
+## The Problem: Result Day Failures
+![System Design Architecture](/blogimage.png)
+Every result season, university portals crash due to sudden traffic spikes. Thousands of students try to access results simultaneously, causing slow response times and server failures.
+
+This is not a coding issue — it’s a system design problem.
+
+---
+
+## Root Cause: Burst Traffic
+
+- Sudden spike in traffic
+- Repeated page refreshes
+- Same data requested by thousands
+
+Traditional systems are built for **average load**, not peak demand.
+
+---
+
+## Why Auto-Scaling Fails
+
+Auto-scaling reacts too late:
+
+1. Traffic spike occurs  
+2. Servers overload  
+3. Scaling triggers  
+4. New instances take time  
+
+Result → downtime before scaling completes.
+
+---
+
+## Solution: Predictive Scaling
+
+Since result timing is known:
+
+- Pre-warm servers before release  
+- Scale from 3 → 15+ instances  
+- Use load balancer to distribute traffic  
+
+---
+
+## Caching Strategy (Most Critical)
+
+### CDN Caching
+- Static content, result pages  
+- Reduces server load significantly  
+
+### Redis Caching
+- First request → DB  
+- Next requests → cache  
+
+---
+
+## Database Optimization
+
+- Use **Read Replicas** for heavy read traffic  
+- Distribute queries across multiple instances  
+
+---
+
+## System Protection
+
+- Rate limiting (prevent refresh spam)  
+- Queue system (controlled access like IRCTC)  
+
+---
+
+## Final Architecture
+
+User → CDN → Load Balancer → App Servers → Redis → Read Replicas
+
+---
+
+## Conclusion
+
+Result portals fail due to poor system design for burst traffic.
+
+Using:
+- Predictive scaling  
+- CDN + Redis caching  
+- Read replicas  
+- Rate limiting  
+
+We can build systems that handle millions of users reliably.

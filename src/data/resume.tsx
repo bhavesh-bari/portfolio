@@ -9,10 +9,10 @@ export const DATA = {
   location: "Pune, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description:
-    "Software Developer | Full Stack Engineer | Student ",
+    "AI & Full-Stack Developer | Next.js, React, Node.js | Building AI-Powered Solutions | B.Tech in AI & Data Science",
   summary:
-    "I’m Bhavesh Bari, a third-year Artificial Intelligence & Data Science student at JSPM Narhe Technical Campus, Pune, with hands-on experience in full-stack development and AI-driven applications. I have built projects like LessonCraft, an AI-powered teaching assistant, and SmartServe, a service tracking web app, using React, Next.js, Node.js, MongoDB, Redis, and MySQL. I’ve solved over 200 DSA problems, participated in hackathons, led teams to victories, and published technical articles, all while continuously learning emerging technologies in AI, system design, and full-stack development to build scalable and user-centric applications.",
-  avatarUrl: "https://i.ibb.co/hx9V2smY/profile.png",
+    "I’m Bhavesh Bari, a third-year Artificial Intelligence & Data Science student at JSPM Narhe Technical Campus, Pune, with hands-on experience in full-stack development and AI-driven applications. I have built projects like LessonCraft, an AI-powered teaching assistant, and SmartServe, a service tracking web app, using React, Next.js, Node.js, MongoDB, Redis, and MySQL. I’ve solved over 300 DSA problems, participated in hackathons, led teams to victories, and published technical articles, all while continuously learning emerging technologies in AI, system design, and full-stack development to build scalable and user-centric applications.",
+  avatarUrl: "/Bhavesh_Bari.png",
   skills: [
     "React.js",
     "Next.js",
@@ -40,7 +40,7 @@ export const DATA = {
       icon: Icons.globe,
       badges: [
         {
-          title: "100+ problems solved",
+          title: "300+ problems solved",
           variant: "secondary",
         },
       ],
@@ -84,7 +84,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "BHAVESH_RESUME_2027.pdf",
+        url: "Bhavesh_Bari_2027_Resume.pdf",
         icon: Icons.googleDrive,
         navbar: true,
       },
@@ -140,7 +140,18 @@ export const DATA = {
       end: "2024",
     },
   ],
-  projects: [
+  certifications: [
+    {
+      title: "Microsoft Azure Fundamentals (AZ-900)",
+      issuer: "Microsoft",
+      date: "Feb 2026",
+      credentialId: "F7Jr-XMSn",
+      credentialUrl: "https://www.credly.com/badges/0be03c82-aff7-4d82-9d10-bc30f30c5395/public_url",
+      pdfUrl: "/Bhavesh_AZ-900.pdf",
+      skills: ["Cloud", "Azure", "Security"],
+      logoUrl: "/az-900.png",
+    },
+  ], projects: [
     {
       title: "LessonCraft – AI-Powered Teaching Assistant",
       href: "https://lesson-craft-teach.vercel.app/",
